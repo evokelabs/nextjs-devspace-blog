@@ -6,11 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "cache-posts": "node scripts/cache.js",
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "autoprefixer": "^10.4.7",
     "gray-matter": "^4.0.3",
+    "husky": "^8.0.1",
     "marked": "^4.0.17",
     "next": "12.1.6",
     "postcss": "^8.4.14",
